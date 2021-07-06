@@ -1,3 +1,4 @@
+/* Universal */
 *{
     margin: 0;
     padding: 0;
@@ -7,43 +8,6 @@
 html{
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
-}
-
-       /* header section */
-
-.header{
-    display: flex;
-    margin-top: 4rem;
-}
-
-.container-text{
-    width: 45%;
-    margin-left: 5%;
-    margin-top: 17rem;
-}
-
-.container-image{
-    width: 45%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
-.container-text h1{
-    font-size: 5.5rem;
-    color: #575757;
-    font-weight: bold;
-    line-height: 120%;
-}
-
-.container-text h1 span{
-    color: #FBA24F;
-}
-
-.container-text p{
-    font-size: 2rem;
-    color: #828282;
-    margin-top: 4rem;
-    margin-bottom: 7rem;
 }
 
 .button{
@@ -57,9 +21,57 @@ html{
     font-weight: 700;
 }
 
-.container-image img{
+
+
+
+
+       /* header section */
+
+.header{
+    display: flex;
+    margin-top: 4rem;
+}
+
+.header-text{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 17rem;
+}
+
+.header-image{
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.header-text h1{
+    font-size: 5.5rem;
+    color: #575757;
+    font-weight: bold;
+    line-height: 120%;
+}
+
+.header-text h1 span{
+    color: #FBA24F;
+}
+
+.header-text p{
+    font-size: 2rem;
+    color: #828282;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.header-image img{
     width: 100%;
 }
+
+
+
+
+
+
+
 
 /*  About Me Section */
 
@@ -100,10 +112,67 @@ html{
 .about-text p{
     font-size: 1.8rem;
     color: #18191F;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
     width: 80%;
     line-height: 160%;
 }
 
 
+
+
+
+
+
+
+/* Recipe Section */
+
+.recipes{
+    margin-top: 7rem;
+}
+
+.recipes h1{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #676767;
+    margin-bottom: 2rem;
+}
+
+.recipes p{
+    text-align: center;
+    font-size: 1.8rem;
+    color: #252525;
+    margin-bottom: 7rem;
+}
+
+.recipe-container{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recipe-box{
+    width: 25%;
+    margin: auto;
+    padding: 1.5%;
+    border-radius: 30px;
+    box-shadow: 0 0 20px gray;
+}
+
+.recipe-box img{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.recipe-box h3{
+    font-size: 2.8rem;
+    color: #18191F;
+    font-weight: bolder;
+}
+.recipe-box p{
+    font-size: 1.8rem;
+    color: #18191F;
+    margin: 1.5rem 0;
+    line-height: 160%;
+    text-align: left;
+}
 
